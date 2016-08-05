@@ -1,0 +1,53 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: -6px 0 0 0;
+	padding: 0px;
+	background:#666;
+	color:#FFF;
+}
+
+.block{
+	display: block;
+	margin: 0px;
+	background: #999;
+	padding: 81px 0 81px 0;
+	border: solid  #00F 2px;
+	width: 17%;
+	text-align:center;
+	font: 24px "Times New Roman", Times, serif;
+	position: absolute;
+	box-shadow: 1px 1px 3px #FFFFFF;
+}
+
+.block:hover{
+	transform:scale(1.2,1.2);
+	box-shadow: 5px 5px 10px #FFFFFF;
+}
+
+.math{
+	margin: 15% 4%;	
+}
+
+.phys{
+	margin: 15% 29%;	
+}
+
+.chem{
+	margin: 15% 54%;
+}
+
+.info{
+	margin: 15% 79%;
+}
+
+footer{
+	position:fixed;
+	left: 0;
+	bottom: 0;
+	text-align:right;
+	border: #999 solid 1px;
+	width: 100%;	
+	max-height: 35px;
+}
